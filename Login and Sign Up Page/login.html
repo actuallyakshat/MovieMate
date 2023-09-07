@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" href="Resources/Images/icons8-film-reel-64.png" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a class="logo-name" href="home.html">MovieMate</a>
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="subscriptions.html">Buy Premium</a>
+          <a href="login.html">Sign In</a>
+          <a href="signup.html">Sign Up</a>
+        </nav>
+      </header>
+      <div class="form-box">
+        <h1>Login</h1>
+        <form action="successful_login.html">
+          <input
+            type="text"
+            class="input-box"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            class="input-box"
+            placeholder="Password"
+            required
+          />
+          <input type="checkbox" class="checkbox" /> <label>Remember me?</label>
+          <div class="redirect-signup">
+            <label>Not Registered? </label><a href="signup.html">Sign Up</a>
+          </div>
+          <input type="submit" class="button" value="Login " />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

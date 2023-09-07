@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  background-color: #040d12;
+  width: 100vw;
+  height: 100vh;
+  color: #eeeeee;
+  overflow: auto;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 2%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo-name {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #93b1a6;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #93b1a6;
+  font-size: 18px;
+  padding: 20px 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #5c8374;
+}
+
+.img-box {
+  position: static;
+  height: 40rem;
+  width: 100%;
+  background-image: url(Resources/Images/05_movietheater_Rules-of-Movie-Theater-Etiquette-That-Everyone-Should-Follow_526931059_Stock-Asso.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+}
+
+.about-text h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 60px;
+}
+
+.about-text main {
+  width: 80%;
+  padding-left: 10%;
+}
+
+.about-text p {
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+
+.about-text ul {
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+
+.about-text h2 {
+  margin-bottom: 30px;
+}
+.about-text ul {
+  margin-left: 3%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: #183d3d;
+}
+
+.footer-container h1 {
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 10px 20px;
+}
+
+#insta {
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #2c5696;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+#insta:hover {
+  cursor: pointer;
+  background-color: #5c8374;
+}
+
+#Email {
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #2c5696;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+#Email:hover {
+  cursor: pointer;
+  background-color: #5c8374;
+}
+
+#Twitter {
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #2c5696;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+#Twitter:hover {
+  cursor: pointer;
+  background-color: #5c8374;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0;
+}
+
+.button-box {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button-box button {
+  background-color: #183d3d;
+  border: 2px solid #183d3d;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 12px 40px 12px 40px;
+  transition: .3s;
+  border-radius: 10px;
+}
+
+.button-box button:hover {
+  background-color: #040d12;
+}
