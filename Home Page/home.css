@@ -110,7 +110,7 @@
 .img-box {
   height: 500px;
   width: 100%;
-  background-image: url(Resources/Images/homepage-img.png);
+  background-image: url(/Resources/Images/homepage-img.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 57%;

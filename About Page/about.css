@@ -56,7 +56,7 @@
   position: static;
   height: 40rem;
   width: 100%;
-  background-image: url(Resources/Images/05_movietheater_Rules-of-Movie-Theater-Etiquette-That-Everyone-Should-Follow_526931059_Stock-Asso.jpg);
+  background-image: url(/Resources/Images/05_movietheater_Rules-of-Movie-Theater-Etiquette-That-Everyone-Should-Follow_526931059_Stock-Asso.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 20%;
@@ -177,7 +177,7 @@ button {
   font-size: 18px;
   cursor: pointer;
   padding: 12px 40px 12px 40px;
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 10px;
 }
 
